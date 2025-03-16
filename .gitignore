@@ -1,0 +1,16 @@
+# WordPress core files (on évite d'envoyer WordPress lui-même)
+wp-admin/
+wp-includes/
+
+# Fichiers temporaires et cache
+*.log
+*.tmp
+*.cache
+*.bak
+*.swp
+error_log
+debug.log
+
+# Fichiers de configuration sensibles
+wp-config.php
+portfolio.sql
